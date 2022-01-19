@@ -1,0 +1,127 @@
+.mess{
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+
+.messbut{
+    display:flex;
+    margin:40px;
+    margin-left: 20px;
+    margin-bottom: -40px;
+    width:50%;
+    height: 100px;
+    border: 5px solid blanchedalmond;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+.inpmes{
+    width: 100%;
+    margin-left: 50%;
+   
+}  
+
+.mess {
+    margin-top: 50px;
+    height: 560px;
+
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+.mess::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .mess .messbut {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+.sender{
+  font-size: 10px;
+  color: rgb(149, 140, 128);
+  background-color: azure;
+  border-radius: 7px;
+  padding: 2px;
+}
+  @media only screen and (max-width: 600px) {
+    .mess{
+      width:60%;
+      font-size: 20px
+    }
+    .inpmes{
+        
+        margin-left: 50px;
+        margin-right: 100px;
+    }
+    .typing{
+      width: 60%;
+    }
+    .btn{
+      margin-right: 10%;
+    }
+    .messbut{
+      width: 17%;
+    }
+  }
+  @media only screen and (min-width: 600px) and ( max-width:1100px) {
+    .inpmes{
+       
+        margin-left: 50px;
+       margin-right: 100px;
+    }
+    .mess{
+      width: 65%;
+    }
+    .typing{
+      width: 65%;
+      }
+      .btn{
+        margin-right: 10%;
+      }
+      .messbut{
+        width: 13%;
+      }
+  }
+  @media only screen and ( min-width:1100px) {
+    .inpmes{
+        margin-left: 50px;
+       
+    }
+    .mess{
+      width:70%;
+    }
+    .typing{
+      width: 70%;
+    }
+    .btn{
+      margin-right: 15%;
+    }
+    .messbut{
+      width: 17%;
+    }
+  }
+.current{
+  margin-left: 50px;
+  margin-bottom: -40px;
+  margin-top: 10px;
+  background-color: blanchedalmond;
+  width: 45%;
+  padding:10px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+}
+  .topclass{
+    background-color: rgb(196, 213, 218);
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
